@@ -1,0 +1,400 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: DIN next LT Arabic Medium ;
+}
+
+.container{
+  box-sizing: border-box;
+  width: 100% !important;
+  display: flex;
+}
+.left-side{
+  width: 80% !important;
+  position: relative;
+}
+.left-side img{
+  width: 800px;
+}
+.head nav{
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+nav ul {
+  position: absolute;
+  display: flex;
+
+  margin-top: 30px;
+}
+li{
+  
+  padding: 0 30px;
+  justify-content: space-between;
+  list-style: none;
+}
+a{
+  color: #222221 !important;
+  font-size: 17px;
+  list-style: none;
+  text-decoration: none;
+}
+.dropbtn {
+  background-color: #222221;
+  border-radius: 30px;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  
+  font-size: 16px;
+}
+.screen{
+  position: absolute;
+top: 40px;
+z-index: 1;
+}
+.screen img{
+  margin-left: -80px;
+  margin-top: 25px;
+}
+.right-side{
+  width: 50% !important;
+}
+.right-side img{
+  width: 70px;
+  margin-top: 30px;
+  margin-left: 120px;
+  
+}
+.lorem{
+  margin-top: 80px;
+  font-size: 85px;
+  color: #222221;
+  display: flex;
+}
+.p1{
+color: 	#243f88;
+}
+.dropbtn2 {
+  margin-top: 50px;
+  margin-right: 50px;
+  background-color: 	#FAEBD7;
+  border-radius: 30px;
+  border: none;
+  color: #222221;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  
+  font-size: 16px;
+}
+.dropbtn3{
+  background-color: #ead4a4;
+  border-radius: 30px;
+  border: none;
+  color: black;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  
+  font-size: 16px;
+}
+.section2{
+  display: flex;
+  width: 50%;
+  height: 350px;
+  margin-left: 150px;
+  margin-top: 150px;
+  background-color: #ead4a4;
+}
+.sec{
+  position: absolute;
+font-size: 40px;
+  margin-top: -70px;
+  margin-left: 250px;
+}
+.img-sec img{
+  width: 250px;
+  position: relative;
+ 
+}
+.text-sec{
+  margin-top: 25px
+}
+.dis span{
+ color: red;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .section2{
+    width: 50%;
+flex-direction: column;
+margin-bottom: -50px;
+    font-size: 10px;
+    display: flex;
+  }
+}
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .section2 p{
+      font-size: 25px;
+      margin-top: 50px;
+
+    }
+    
+  }
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .section2 h2{
+    
+      margin-top: -100px;
+      margin-left: 10px;
+
+    }
+    
+  }
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .left-side img{
+   width: 200px;
+
+    }
+    
+  }
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .left-side .head ul {
+  font-size: 30px;
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top:250px;
+  margin-left: 100px;
+
+    }
+    
+  }
+
+ @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .right-side .bel {
+  
+ margin-left: -60px;
+
+    }
+    
+  }
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .right-side h1 {
+  
+ margin-top: 450px;
+ margin-left: -180px;
+ font-size: 40px;
+
+    }
+    
+  }
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .right-side p {
+  font-size: 12px;
+ margin-left: -220px;
+ margin-top: 20px;
+
+    }
+    
+  }
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .dropbtn2, .dropbtn3 {
+  
+display: block;
+margin-left: -150px;
+margin-top: 20px;
+    }
+    
+  }
+  /*section3*/
+  .section3{
+    display: flex;
+    width: 50%;
+    height: 350px;
+    margin-left: 150px;
+    margin-top: 150px;
+  }
+  .img-sec3{
+    position: relative;
+  }
+.img-3{
+position:relative;
+width: 150px;
+padding-left: -150px;
+z-index: 2;
+}
+  
+  .section3 img{
+    width: 850px !important;
+    position: absolute;
+   
+    
+  }
+  .c  {
+    margin-top: 130px;
+    margin-left: 280px;
+    position: absolute;
+    list-style-type: upper-alpha !important;
+  
+    
+    
+  }  ol li{
+    list-style:d !important;
+  }
+  .section3 span{
+    display: flex;
+    padding-left: 80px;
+  }
+  .section3 span h3{
+    margin-left: -80px;
+    margin-top: -6px;
+  }
+  /*section4*/
+  .section4{
+    margin-top: 650px;
+    position: relative;
+    display: flex;
+  }
+  .text4{
+    position: absolute;
+    margin-top: -60px;
+    margin-left: 350px;
+  }
+  .table-4{
+    width: 50% !important;
+    margin-top: 70px;
+    margin-left: 100px;
+  }
+  table, th {
+  border:1px solid #243f88;
+  display:block;
+  border: none;
+}
+  table th ,tr{
+    width: 450px;
+    border: 1px solid #243f88;
+    text-align: center;
+    padding: 8px;
+  }
+  .mem{
+color: #243f88;
+  }
+  table tr{
+    border: 1px solid #243f88;
+    
+  }
+  table th{
+    border-radius: 15px !important;
+  }
+  .par2-sec4{
+margin-left: 50px;
+width: 450px !important;
+margin-top: 90px;
+position: relative;
+font-size: 15px;
+  }
+ 
+  .img-4{
+    position: absolute;
+    margin-top: -180px;
+  }
+ .الجامعه{
+  margin-top: 150px;
+ }
+  address a{
+    color: #243f88 !important;
+  
+  }
+  .part5{
+    margin-top: 1250px;
+    margin-left: -720px;
+  }
+  .img-5 img{
+    height: 400px;
+    width: 80% !important;
+  }
+  .pa-5 img{
+position: relative;
+    width: 150px !important;
+   height: 220px;
+   margin-top: 70px;
+    margin-left: 650px;
+  }
+  .lay26 img{
+    position: absolute;
+width: 60px !important;
+height: 120px;
+ margin-top: -330px;
+ margin-left: 900px;
+ 
+  }
+  form{
+    position: absolute;
+    margin-top: -250px;
+    margin-left: 150px;
+  }
+  input{
+    background-color:white;
+    padding:0 25px;
+    border-radius: 30px;
+    border: none;
+    text-align: right;
+  }
+  .mes{
+ 
+    margin-top: 20px;
+    padding:70px 150px;
+  
+    text-align: right;
+    
+  }
+  .se img{
+    position: relative;
+    width: 220px !important;
+    margin-top: 20px;
+padding-left:  -20px;
+
+  }
+ .l29 img{
+  position: absolute;
+  margin-top: 10px;
+  width: 60px !important;
+  margin-left: -90px;
+ }
+
+  footer{
+
+    margin-top: 1650px;
+    width: 100% !important;
+    margin-left: 50px;
+  }
+  .img-fo img{
+    position: relative;
+margin-left: -1150px;
+height: 300px;
+    width: 1542px !important;
+  }
+ .lo-img img{
+  position: absolute;
+  width: 150px !important;
+  height: 120px;
+  margin-left: -350px;
+  margin-top: -190px !important;
+
+ }
+ .foo{
+  position: absolute;
+  margin-top: -50px;
+  margin-left: -400px;
+ }
